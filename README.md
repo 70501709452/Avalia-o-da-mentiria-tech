@@ -169,13 +169,6 @@ public class ConversorTemperatura {
 
         // Saída dos resultados
         System.out.println("\n--- Conversão de Temperatura ---");
-        System.out.printf("Temperatura original: %.2f °C\n", celsius);
-        System.out.printf("Temperatura em Kelvin: %.2f K\n", kelvin);
-        System.out.printf("Temperatura em Fel-Wet: %.2f FW\n", felWet);
-
-        scanner.close();
-    }
-}
 
 
 ---
