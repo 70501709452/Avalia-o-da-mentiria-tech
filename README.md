@@ -1,25 +1,5 @@
 # Avalia-o-da-mentiria-tech
 
-Claro! Abaixo está um algoritmo em Java que simula um sistema escolar. Ele recebe as 8 notas do aluno (2 por bimestre, totalizando 4 bimestres), calcula:
-
-As médias bimestrais (2 notas por bimestre);
-
-As médias semestrais (2 bimestres por semestre);
-
-E a média final (2 semestres).
-
-
-
----
-
-✅ CÓDIGO EM JAVA
-
-import java.util.Scanner;
-
-public class SistemaEscolar {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         double[] notas = new double[8];
         double[] mediasBimestrais = new double[4];
         double[] mediasSemestrais = new double[2];
@@ -55,41 +35,6 @@ public class SistemaEscolar {
 
         scanner.close
 
-Claro! Vamos criar um algoritmo em Java que:
-
-1. Recebe uma temperatura em graus Celsius do usuário;
-
-
-2. Converte essa temperatura para:
-
-Kelvin: K = C + 273.15
-
-"Fel-Wet" (parece ser fictício; como não há fórmula oficial, vou considerar F = C * 1.8 + 50 como uma fórmula genérica para exemplo);
-
-
-
-3. Exibe os resultados com mensagens claras.
-
-
-
-
----
-
-🧠 Suposição:
-
-A escala "Fel-Wet" parece ser fictícia ou um erro de digitação. Se você tiver uma fórmula correta ou desejada, posso corrigir. Aqui vou usar uma fórmula genérica para ilustração.
-
-
----
-
-✅ Código Java:
-
-import java.util.Scanner;
-
-public class ConversorTemperatura {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         // Entrada do usuário
         System.out.print("Digite a temperatura em graus Celsius: ");
         double celsius = scanner.nextDouble();
@@ -106,71 +51,4 @@ public class ConversorTemperatura {
 
         scanner.close();
     }
-}
-
-
----
-
-💡 Exemplo de Saída:
-
-Se o usuário digitar 25:
-
---- Conversão de Temperatura ---
-Temperatura original: 25.00 °C
-Temperatura em Kelvin: 298.15 K
-Temperatura em Fel-Wet: 95.00 FW
-
-
----
-
-Se você tiver uma fórmula específica para a escala "Fel-Wet", posso atualizar o algoritmo. Deseja isso?
-Claro! Vamos criar um algoritmo em Java que:
-
-1. Recebe uma temperatura em graus Celsius do usuário;
-
-
-2. Converte essa temperatura para:
-
-Kelvin: K = C + 273.15
-
-"Fel-Wet" (parece ser fictício; como não há fórmula oficial, vou considerar F = C * 1.8 + 50 como uma fórmula genérica para exemplo);
-
-
-
-3. Exibe os resultados com mensagens claras.
-
-
-
-
----
-
-🧠 Suposição:
-
-A escala "Fel-Wet" parece ser fictícia ou um erro de digitação. Se você tiver uma fórmula correta ou desejada, posso corrigir. Aqui vou usar uma fórmula genérica para ilustração.
-
-
----
-
-✅ Código Java:
-
-import java.util.Scanner;
-
-public class ConversorTemperatura {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Entrada do usuário
-        System.out.print("Digite a temperatura em graus Celsius: ");
-        double celsius = scanner.nextDouble();
-
-        // Conversões
-        double kelvin = celsius + 273.15;
-        double felWet = celsius * 1.8 + 50; // Suposição para "Fel-Wet"
-
-        // Saída dos resultados
-        System.out.println("\n--- Conversão de Temperatura ---");
-
-
----
-
-
+{
